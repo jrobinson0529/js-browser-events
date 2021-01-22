@@ -1,1 +1,26 @@
-body {background-color: grey}
+body {
+  background-color: grey;
+  display: flex;
+  justify-content: stretch;
+  text-align: center;
+  text-justify: inter-word;
+}
+.blue {
+  color: blue;
+}
+#guinea-pig {
+  height: 100px;
+  width: 100px;
+}
+.red {
+  background-color: red;
+}
+.large {
+  font-size: large;
+}
+.bordered {
+  border: 2px solid blueviolet;
+}
+.rounded {
+  border-radius: 50%;
+}
