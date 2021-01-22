@@ -76,5 +76,5 @@ document.getElementById("add-border").addEventListener("click", function() {
 });
 
 document.getElementById("add-rounding").addEventListener("click", function() {
-  toggleClass("rounded");
+  toggleClass("rounder");
 });

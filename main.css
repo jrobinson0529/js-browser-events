@@ -1,14 +1,19 @@
 body {
+  width: 50%;
   background-color: grey;
   display: flex;
-  justify-content: stretch;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
-  text-justify: inter-word;
 }
 .blue {
   color: blue;
 }
 #guinea-pig {
+  padding: 30px;
+  margin: 10px;
+  align-self: center;
   height: 100px;
   width: 100px;
 }
@@ -21,6 +26,6 @@ body {
 .bordered {
   border: 2px solid blueviolet;
 }
-.rounded {
-  border-radius: 50%;
+.rounder {
+  border-radius: 25%;
 }
