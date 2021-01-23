@@ -1,5 +1,6 @@
 body {
-  width: 50%;
+  border: 1px solid red;
+  width: auto;
   background-color: grey;
   display: flex;
   justify-content: center;
@@ -10,9 +11,15 @@ body {
 .blue {
   color: blue;
 }
+.rounder {
+  box-sizing: unset;
+  margin-top: 100px;
+  border-radius: 25%;
+  transition: ease-in 0.5s;
+}
+
 #guinea-pig {
-  padding: 30px;
-  margin: 10px;
+  padding: 5px;
   align-self: center;
   height: 100px;
   width: 100px;
@@ -26,6 +33,6 @@ body {
 .bordered {
   border: 2px solid blueviolet;
 }
-.rounder {
-  border-radius: 25%;
+@keyframes fadeIn {
+  0% {margin 20px}
 }
